@@ -1,0 +1,9 @@
+{
+  "minimum_nps_score": "Tingkat kepuasan pelanggan sangat rendah (NPS rendah)",
+  "inactivity_days": "Pelanggan sudah tidak aktif menggunakan layanan lebih dari 30 hari",
+  "payment_risk_score": "Terdeteksi risiko tinggi pada pola pembayaran pelanggan",
+  "count_ticket_id_Technical": "Terlalu banyak kendala teknis yang dilaporkan",
+  "composite_risk": "Analisis sistem menunjukkan akumulasi risiko perilaku yang tinggi",
+  "subscription_age": "Pelanggan baru masih dalam fase adaptasi awal yang kritis",
+  "fallback": "Customer masih dalam kondisi normal"
+}
