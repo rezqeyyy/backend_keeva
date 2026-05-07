@@ -2,7 +2,8 @@ import requests
 
 def call_ollama(prompt: str, system: str):
     # INGAT: URL ini bakal ganti tiap kali lu restart Ngrok di CMD!
-    NGROK_URL = "https://3a87-2402-8780-1065-8907-785e-907-21e-7554.ngrok-free.app" 
+    NGROK_URL = "https://5819-2402-8780-1065-8907-785e-907-21e-7554.ngrok-free.app" 
+    
     
     try:
         response = requests.post(
