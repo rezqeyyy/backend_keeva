@@ -78,7 +78,7 @@ def predict_churn(customer_data: dict):
     }
     
 # Inisialisasi SHAP setelah load model
-init_explainer(model, FEATURE_ORDER)
+# init_explainer(model, FEATURE_ORDER)
 
 @app.post("/chat")
 def chat(payload: dict):
@@ -88,7 +88,7 @@ def chat(payload: dict):
     reply = handle_chat(customer_id, message, churn_data)
     return {"reply": reply}
 
-@app.post("/explain")
+# @app.post("/explain")
 def explain(customer_data: dict):
     df_input = pd.DataFrame([customer_data])
     for col in FEATURE_ORDER:
