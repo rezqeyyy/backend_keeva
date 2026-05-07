@@ -9,7 +9,7 @@ from business_logic.recommendation_engine import get_recommendation
 from business_logic.explanation_rules import get_churn_reasons
 from business_logic.early_warning import get_early_warning
 from chatbot.chat_handler import handle_chat
-from explainability.shap_explainer import init_explainer, get_shap_explanation
+# from explainability.shap_explainer import init_explainer, get_shap_explanation
 
 app = FastAPI()
 
